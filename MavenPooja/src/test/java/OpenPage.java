@@ -20,6 +20,7 @@ public class OpenPage {
 		//WebElement selectdrpdwn = 
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("iphone 16pro max");
 		driver.findElement(By.id("nav-search-submit-button")).click();
+		System.out.println("Print1");
 		Thread.sleep(5000);		
 		driver.quit();
 	
